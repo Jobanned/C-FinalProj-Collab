@@ -9,7 +9,7 @@ typedef struct {
     int quantity;
     float price;
 } InventoryItem;
-
+//testing
 typedef struct {
     int id;
     char name[50];
