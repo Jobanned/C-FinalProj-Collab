@@ -204,7 +204,7 @@ void deleteInventoryItem(int deleteID) {
         return;
     }
 
-    // Search for the item
+    // Search for item
     while (temp != NULL && temp->id != deleteID) {
         prev = temp;
         temp = temp->next;
